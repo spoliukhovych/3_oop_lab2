@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceShop>
+    <Device>
+        <id>1</id>
+        <name>AMD Radeon RX 20000</name>
+        <origin>United States</origin>
+        <price>1200</price>
+        <critical>true</critical>
+
+        <DeviceTypes>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>7</EnergyConsumption>
+            <Cooler>true</Cooler>
+            <Group>Multimedia</Group>
+            <Port>USB</Port>
+        </DeviceTypes>
+    </Device>
+
+    <Device>
+        <id>2</id>
+        <name>Sony WH-1000XM4</name>
+        <origin>Japan</origin>
+        <price>300</price>
+        <critical>true</critical>
+
+        <DeviceTypes>
+            <Peripheral>true</Peripheral>
+            <EnergyConsumption>2</EnergyConsumption>
+            <Cooler>false</Cooler>
+            <Group>Sound</Group>
+            <Port>false</Port>
+        </DeviceTypes>
+    </Device>
+</DeviceShop>
